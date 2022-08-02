@@ -8,7 +8,6 @@ $('#link_login').on('click',function(){
 })
 
 const form = layui.form
- 
 form.verify({
    repass:value=>{
     const pwd=$('.reg-box [name=password').val()
